@@ -13,6 +13,7 @@
 		1A9A58FD1E7F813B00265058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A58FB1E7F813B00265058 /* Main.storyboard */; };
 		1A9A58FF1E7F813B00265058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A58FE1E7F813B00265058 /* Assets.xcassets */; };
 		1A9A59021E7F813B00265058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A9A59001E7F813B00265058 /* LaunchScreen.storyboard */; };
+		1A9A590B1E7F81BC00265058 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A590A1E7F81BC00265058 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1A9A58FE1E7F813B00265058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A9A59011E7F813B00265058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A9A59031E7F813B00265058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A9A59091E7F81BC00265058 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		1A9A590A1E7F81BC00265058 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				1A9A58F81E7F813B00265058 /* ViewController.h */,
 				1A9A58F91E7F813B00265058 /* ViewController.m */,
 				1A9A58FB1E7F813B00265058 /* Main.storyboard */,
+				1A9A59091E7F81BC00265058 /* WebViewController.h */,
+				1A9A590A1E7F81BC00265058 /* WebViewController.m */,
 				1A9A58FE1E7F813B00265058 /* Assets.xcassets */,
 				1A9A59001E7F813B00265058 /* LaunchScreen.storyboard */,
 				1A9A59031E7F813B00265058 /* Info.plist */,
@@ -153,6 +158,7 @@
 				1A9A58FA1E7F813B00265058 /* ViewController.m in Sources */,
 				1A9A58F71E7F813B00265058 /* AppDelegate.m in Sources */,
 				1A9A58F41E7F813B00265058 /* main.m in Sources */,
+				1A9A590B1E7F81BC00265058 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
